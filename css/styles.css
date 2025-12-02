@@ -1,4 +1,35 @@
-h1{
-    background-color: rgb(62, 189, 189);
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(2, 5, 4);
+
+}
+.cabecera{
+    background-color: rgb(225, 40, 40);
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.contenedor-cabecera{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: o 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 80px;
+}
+.logo img{
+    height: 100px;
+    display: block;
+
 }
